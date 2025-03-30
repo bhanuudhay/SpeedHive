@@ -77,7 +77,6 @@ SpeedHive/
 │   │── .env
 │   │── package.json
 │   │── package-lock.json
-│   │── node_modules/
 │   │── config/
 │   │   ├── db.js
 │   │── controllers/
@@ -88,7 +87,6 @@ SpeedHive/
 │   │   ├── speedTestRoutes.js
 │
 │── frontend/speed-test-frontend/
-│   │── node_modules/
 │   │── src/
 │   │   ├── App.css
 │   │   ├── App.jsx
@@ -100,8 +98,6 @@ SpeedHive/
 │   │── index.html
 │   │── eslint.config.js
 │   │── package.json
-│   │── package-lock.json
-│   │── README.md
 │   │── vite.config.js
 
 ````
