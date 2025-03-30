@@ -1,0 +1,103 @@
+/* 🌍 Global Styles - Glassmorphism Effect */
+body {
+  font-family: "Poppins", sans-serif;
+  background: url("https://sdmntpreastus2.oaiusercontent.com/files/00000000-c230-51f6-be87-eaed8e8057de/raw?se=2025-03-30T21%3A05%3A07Z&sp=r&sv=2024-08-04&sr=b&scid=ed5e08bf-f7e4-58d6-a35f-8175a688d453&skoid=3f3a9132-9530-48ef-96b7-fee5a811733f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-03-30T18%3A28%3A05Z&ske=2025-03-31T18%3A28%3A05Z&sks=b&skv=2024-08-04&sig=sbOZTIZ4AwcrRopZVuNxd9nKCVPp3iTqJ/x5Y6gbAgs%3D")
+    no-repeat center center/cover;
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* ✨ Glass Effect for Background */
+.body-glass {
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(20px) saturate(150%);
+  -webkit-backdrop-filter: blur(20px) saturate(150%);
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 📌 Main Container */
+.container {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(25px) saturate(180%);
+  -webkit-backdrop-filter: blur(25px) saturate(180%);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  width: 350px;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* 🏆 Heading */
+h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* 🎯 Button */
+button {
+  background: linear-gradient(135deg, #ff5f8a, #ff758c);
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  margin-top: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #ff3b6f, #ff758c);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 94, 98, 0.4);
+}
+
+/* 📊 Speed Test Result Box */
+.result {
+  margin-top: 15px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: 0.3s;
+}
+
+.result:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 450px) {
+  .container {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}
