@@ -12,7 +12,7 @@ const SpeedTest = () => {
     setLoading(true);
     try {
       const response = await axios.get(
-        "http://localhost:3000/api/speedtest/run"
+        "https://speedhive.onrender.com/api/speedtest/run"
       );
       setSpeedData(response.data);
       fetchHistory(); // Refresh history after a new test
@@ -26,7 +26,7 @@ const SpeedTest = () => {
   const fetchHistory = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:3000/api/speedtest/history"
+        "https://speedhive.onrender.com/api/speedtest/history"
       );
       setHistory(response.data);
     } catch (error) {
@@ -37,7 +37,7 @@ const SpeedTest = () => {
   // Delete the last speed test result
   const deleteLastResult = async () => {
     try {
-      await axios.delete("http://localhost:3000/api/speedtest/delete-last");
+      await axios.delete("https://speedhive.onrender.com/api/speedtest/delete-last");
       setHistory(history.slice(0, -1)); // Remove last item from UI
     } catch (error) {
       console.error("Error deleting last result:", error);
