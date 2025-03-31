@@ -1,0 +1,7 @@
+[build]
+  base = "SpeedHive/frontend/speed-test-frontend"
+  command = "npm run build"
+  publish = "SpeedHive/frontend/speed-test-frontend/dist"
+
+[build.environment]
+  NODE_VERSION = "18"
