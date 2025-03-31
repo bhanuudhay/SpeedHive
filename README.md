@@ -2,6 +2,10 @@
 
 SpeedHive is a web-based internet speed test tracker that lets users measure their download, upload speed, and ping, store the results in MongoDB, and view their test history with charts. Built using Node.js (Express) for the backend and React for the frontend, it follows the MVC architecture for better scalability. Unlike other speed test tools, SpeedHive provides historical tracking and data visualization, allowing users to monitor their internet performance over time. It utilizes the speed-test module for accurate results and integrates with a database to keep a record of past tests. The project also ensures real-time updates and a user-friendly interface, making it a unique alternative to typical one-time speed test apps. 🚀
 
+# ✅ Successfully Deployed on Netlify 🎉
+
+- SpeedHive is live at: https://speedhive.netlify.app/
+
 # Users can:
 
 - ✅ Perform an internet speed test
