@@ -10,8 +10,8 @@ const runSpeedTest = async (req, res) => {
     }
 
     const speedData = new SpeedTest({
-      downloadSpeed: result.download.bandwidth / 12500000, // Convert to Mbps  // bandwidth maximum data transfer rate
-      uploadSpeed: result.upload.bandwidth / 12500000, //  why 125000  bps * 8 / 10,00,000 = bps / 1000000/8 = bps/125000
+      downloadSpeed: result.download.bandwidth / 125000 // Convert to Mbps  // bandwidth maximum data transfer rate
+      uploadSpeed: result.upload.bandwidth / 125000, //  why 125000  bps * 8 / 10,00,000 = bps / 1000000/8 = bps/125000
       ping: result.ping.latency,
     });
 
