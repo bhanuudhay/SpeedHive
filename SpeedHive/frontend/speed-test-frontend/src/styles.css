@@ -1,7 +1,7 @@
 /* 🌍 Global Styles - Glassmorphism Effect */
 body {
   font-family: "Poppins", sans-serif;
-  background: url("https://sdmntpreastus2.oaiusercontent.com/files/00000000-c230-51f6-be87-eaed8e8057de/raw?se=2025-03-30T21%3A05%3A07Z&sp=r&sv=2024-08-04&sr=b&scid=ed5e08bf-f7e4-58d6-a35f-8175a688d453&skoid=3f3a9132-9530-48ef-96b7-fee5a811733f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-03-30T18%3A28%3A05Z&ske=2025-03-31T18%3A28%3A05Z&sks=b&skv=2024-08-04&sig=sbOZTIZ4AwcrRopZVuNxd9nKCVPp3iTqJ/x5Y6gbAgs%3D")
+  background: url("/background.png") 
     no-repeat center center/cover;
   background-blend-mode: overlay;
   background-size: cover;
